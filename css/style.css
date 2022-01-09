@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1638913658179-18c9a9c943f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(53, 42, 42);
+    font-size: 8rem;
+    font-family: Impact;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    }
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color:rgb(201, 29, 23);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(8, 6, 6);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background: url(https://media.istockphoto.com/photos/soft-grey-cotton-elastane-and-polyester-fabric-texture-background-picture-id1320777019?b=1&k=20&m=1320777019&s=170667a&w=0&h=XnQki_GBhUZv3-sSC4gbiQ_7cVwzoQSIbEya8HBUcq0=) no-repeat;
+    background-size: 100%;
+    margin: 0px 250px;
+}
+
+
+.news {
+    margin: 0;
+    background-size: cover;
+    padding: 10px 50px;
+    text-align:center;
+    background: url(https://images.unsplash.com/photo-1517747614396-d21a78b850e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+}
+
+
+.news > article:nth-child(even) {
+    background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+
+}
+
+article a {
+    color: rgb(46, 4, 4);
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+a h2 {
+    display: inline-block;
+    padding: 0px 70px;
+}
+
+article a:hover {
+    color: rgb(9, 111, 170);
+}
+
+article h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.art {
+    border: rgb(218, 207, 207) solid 0.1px;
+    border-radius: 10px;
+    margin: 10px 200px;
+    background: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg);
+
+}
+
+.news > .art:hover {
+    background: url(https://cdn.pixabay.com/photo/2016/11/29/01/54/wood-1866667__340.jpg);
+    background-size: cover;
+    font-size: 108%;  
+}
+
+article img {
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 30px;
+} 
+
+.art > .article-meta {
+    font-size: 12px;
+    color: rgb(58, 54, 58);
+}
+
+div > a {
+font-size: 12px;
+color: rgb(58, 54, 58);
+}
+
+.news > .art:nth-of-type(-n+2):before {
+content: "NEW";
+color: red;
+}
